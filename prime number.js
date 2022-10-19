@@ -3,6 +3,11 @@
 let num=13;   
 count=0;
     for(let i = 2;i <= num/2 ;i++){
-          sdgsdgfsdggdgsz;
+       if(num%i==0){
+          count++
+        }
     }
-count==0?console.log("Prime Number"):console.log("Not a Prime Number");
+    if(count==2){
+        console.log("Yes")
+    }else{
+        console.log("No")
